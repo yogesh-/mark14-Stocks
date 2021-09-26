@@ -1,0 +1,17 @@
+.container{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+.hydra{
+    display: block;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    font-size:16pt;
+}
+
