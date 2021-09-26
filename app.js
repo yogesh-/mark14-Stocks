@@ -32,8 +32,5 @@ function showResult(){
     else{
         result.innerText = "Be patient, hold your stocks longer to earn profits";
     }
-
-    
-
 }
 
