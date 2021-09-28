@@ -14,7 +14,16 @@ function showResult(){
 
     // buy - 100, current - 90
     // loss calculation
-    if(buy > current){
+
+    if(buy < 0 || current < 0 || quantity < 0){
+        result.innerText = "Input cant be a negative Number. Enter a positive value."
+    }
+
+    else if(buyPrice.value==="" || currentPrice.value===""||totalQuantity.value===""){
+        result.innerText ="Please enter all the values to calculate"
+    }
+
+    else if(buy > current){
         var loss = buy - current;
         var lossAmt = loss*quantity;
         var lossPer = (loss/buy)*100;
